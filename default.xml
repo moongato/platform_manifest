@@ -438,7 +438,7 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
-  <project path="platform_manifest" name="moongato/platform_manifest" remote="github" revision="kk44s" />
+  <project path="platform_manifest" name="moongato/platform_manifest" remote="github" revision="kk44s-test" />
 
   <!-- New Additions for slim -->
   <project path="vendor/slim" name="moongato/vendor_slim" remote="github" revision="kk44s" />
