@@ -20,7 +20,7 @@ To initialize your local repository using the SlimKat trees, use this command:
 
 for google, exynos and non qcom devices:
 
-	repo init -u git://github.com/moongato/platform_manifest.git -b kk44s
+	repo init -u git://github.com/moongato/platform_manifest.git -b kk44s-test
 
 
 for qcom devices which are using CodeAuroraForum trees:
