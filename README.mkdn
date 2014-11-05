@@ -1,32 +1,13 @@
-Welcome to SlimRoms
-===================
-
 
 Getting Started
 ---------------
 
-To get started with SlimLP, you'll need to get familiar with
-[Git and Repo](http://source.android.com/download/using-repo).
-
-Please take note that we have two main line branches depending on
-which hardware base your phone is working.
-
-If you have a qcom powered device which needs CodeAuroraForum (CAF)
-trees please us the lp5.0-caf branch which pulls for the effected packages
-the correct caf version for you.
-
-To initialize your local repository using the SlimLP trees, use this command:
+To initialize your local repository using my trees, use this command:
 
 
-for google, exynos and non qcom devices:
+for Mako only:
 
-	repo init -u git://github.com/SlimRoms/platform_manifest.git -b lp5.0
-
-
-for qcom devices which are using CodeAuroraForum trees:
-
-	repo init -u git://github.com/SlimRoms/platform_manifest.git -b lp5.0-caf
-
+	repo init -u git://github.com/moongato/platform_manifest.git -b lp50s
 
 
 Then sync up with this command:
@@ -35,7 +16,7 @@ Then sync up with this command:
 
 
 
-Submitting Patches
+Submitting Patches To SlimRoms
 ------------------
 
 We're open source, and patches are always welcome!
