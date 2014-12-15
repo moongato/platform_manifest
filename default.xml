@@ -510,8 +510,8 @@
   <project path="packages/apps/SlimLauncher" name="SlimRoms/packages_apps_SlimLauncher" remote="github" revision="lp5.0" />
 
   <!-- AudioFX -->
-  <project path="packages/apps/AudioFX" name="CyanogenMod/android_packages_apps_AudioFX" remote="github" revision="cm-12.0" />
-<project path="external/android-visualizer" name="CyanogenMod/android_external_android-visualizer" remote="github" revision="cm-12.0" />
+  <project path="packages/apps/AudioFX" name="Slimroms/packages_apps_AudioFX" remote="github" revision="lp5.0" />
+<project path="external/android-visualizer" name="Slimroms/android_external_android-visualizer" remote="github" revision="lp5.0" />
 
   <!--Power Hal -->
   <project path="hardware/cm" name="SlimRoms/hardware_cm" remote="github" revision="lp5.0" />
