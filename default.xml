@@ -513,4 +513,5 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
   <project path="vendor/moto/shamu" name="vendor_moto_shamu" remote="chroma" revision= "mm6.0"/>
+  <project path="vendor/chroma" name="android_vendor_chroma" remote="chroma" revision= "mm6.0"/>
 </manifest>
