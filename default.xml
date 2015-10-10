@@ -512,4 +512,5 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
+  <project path="vendor/moto/shamu" name="vendor_moto_shamu" remote="chroma" revision= "mm6.0"/>
 </manifest>
