@@ -15,7 +15,7 @@
            fetch="https://github.com/UBERMALLOW"
            sync-j="6" />
 
-  <project path="build" name="moongato/platform_build" groups="pdk" remote="github" revision="mm60f" >
+  <project path="build" name="moongato/android_build" groups="pdk" remote="github" revision="mm60f" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -245,7 +245,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
-  <project path="frameworks/base" name="moongato/platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="github" revision="mm60f" />
+  <project path="frameworks/base" name="moongato/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="github" revision="mm60f" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -357,7 +357,7 @@
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" groups="pdk-cw-fs,pdk-fs"/>
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" groups="pdk-fs" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" />
-  <project path="packages/apps/Settings" name="moongato/platform_packages_apps_Settings" groups="pdk-fs" remote="github" revision="mm60f" />
+  <project path="packages/apps/Settings" name="moongato/android_packages_apps_Settings" groups="pdk-fs" remote="github" revision="mm60f" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" groups="pdk-fs" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" groups="pdk-fs" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" groups="pdk-fs" />
@@ -424,7 +424,7 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/bt" name="platform/system/bt" groups="pdk" />
-  <project path="system/core" name="moongato/platform_system_core" groups="pdk" remote="github" revision="mm60f" />
+  <project path="system/core" name="moongato/android_system_core" groups="pdk" remote="github" revision="mm60f" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
