@@ -7,11 +7,13 @@
            fetch="https://github.com/chroma-aosp/" />
   <remote  name="cm"
            fetch="https://github.com/cyanogenmod/" />
+  <remote  name="github"
+           fetch="https://github.com/" />
   <default revision="refs/tags/android-6.0.0_r1"
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="android_build" groups="pdk,tradefed" remote="chroma" revision="mm6.0">
+  <project path="build" name="moongato/android_build" groups="pdk,tradefed" remote="github" revision="mm60c">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -26,13 +28,6 @@
   <project path="developers/docs" name="platform/developers/docs" />
   <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="platform/development" groups="pdk-cw-fs" />
-  <project path="device/asus/deb" name="device/asus/deb" groups="device,flo" />
-  <project path="device/asus/flo" name="device/asus/flo" groups="device,flo" />
-  <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" clone-depth="1" />
-  <project path="device/asus/fugu" name="device/asus/fugu" groups="device,fugu" />
-  <project path="device/asus/fugu-kernel" name="device/asus/fugu-kernel" groups="device,fugu" clone-depth="1" />
-  <project path="device/asus/grouper" name="device/asus/grouper" groups="device,grouper" />
-  <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device,grouper" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs" />
   <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
@@ -50,16 +45,11 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/google/atv" name="device/google/atv" groups="device,fugu" />
-  <project path="device/htc/flounder" name="device/htc/flounder" groups="device,flounder" />
-  <project path="device/htc/flounder-kernel" name="device/htc/flounder-kernel" groups="device,flounder" clone-depth="1" />
-  <project path="device/lge/hammerhead" name="android_device_lge_hammerhead" remote="chroma" revision="mm6.0" />
+  <project path="device/lge/hammerhead" name="moongato/device_lge_hammerhead" remote="github" revision="mm60c">
   <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead" clone-depth="1" />
   <project path="device/lge/mako" name="android_device_lge_mako" remote="chroma" revision="mm6.0" />
   <project path="device/lge/mako-kernel" name="device_lge_mako-kernel" remote="chroma" revision="mm" />
-  <project path="device/moto/shamu" name="android_device_moto_shamu" groups="device,shamu" remote="chroma" revision="mm6.0"/>
-  <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu" clone-depth="1" />
   <project path="device/sample" name="device/sample" groups="pdk" />
-  <project path="device/samsung/manta" name="device/samsung/manta" groups="device,manta" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs" />
@@ -287,7 +277,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
   <project path="frameworks/av" name="android_frameworks_av" remote="chroma" revision="mm6.0" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="chroma" revision="mm6.0"/>
+  <project path="frameworks/base" name="moongato/android_frameworks_base" remote="github" revision="mm60c">
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -367,6 +357,8 @@
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
+  <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
+  <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" />
   <project path="packages/apps/CellBroadcastReceiver" name="android_packages_apps_CellBroadcastReceiver" remote="chroma" revision="mm6.0" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs" />
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="chroma" revision="mm6.0" />
@@ -391,7 +383,7 @@
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="chroma" revision="mm6.0"/>
+  <project path="packages/apps/Settings" name="moongato/android_packages_apps_Settings" remote="github" revision="mm60c">
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -507,7 +499,7 @@
   <project path="vendor/lge/hammerhead" name="vendor_lge_hammerhead" remote="chroma" revision= "mm6.0"/>
   <project path="vendor/lge/mako" name="vendor_lge_mako" remote="chroma" revision= "mm"/>
   <project path="vendor/moto/shamu" name="vendor_moto_shamu" remote="chroma" revision= "mm6.0"/>
-  <project path="vendor/chroma" name="android_vendor_chroma" remote="chroma" revision= "mm6.0"/>
+  <project path="vendor/chroma" name="/moongato/android_vendor_chroma" remote="github" revision="mm60c">
   <project path="external/busybox" name="android_external_busybox" remote="cm" revision= "cm-13.0"/>
   <project path="external/google" name="android_external_google" remote="cm" revision= "cm-13.0"/>
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="cm" revision= "cm-13.0"/>

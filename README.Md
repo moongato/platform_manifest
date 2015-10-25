@@ -1,9 +1,9 @@
-Chroma Manifest
+Manifest - Hammerhead - based on Chroma
 ===================
 
 To initialize your local repository use
 
-    repo init -u https://github.com/chroma-aosp/chroma_manifest.git -b mm6.0
+    repo init -u https://github.com/moongato/chroma_manifest.git -b mm60c
     
 
 Then to sync up:
@@ -14,10 +14,4 @@ Then to sync up:
 Build command is
 
     ./build.sh device -j#
-
-
-Supported Devices
-
-   Nexus 6 - shamu
-
 
